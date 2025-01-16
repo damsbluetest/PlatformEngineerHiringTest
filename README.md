@@ -51,16 +51,16 @@ Esta reducción no solo mejora la estética y legibilidad de los mensajes, sino 
 
 ## ¿Qué te pedimos?
 
-Desarrolla un servicio que cumpla con las siguientes funcionalidades:
+Desarrolla un servicio **(solución?)** que cumpla con las siguientes funcionalidades:
 
 - **Generación de URL Corta**: Al recibir una URL larga, el servicio debe proporcionar una versión acortada.
 - **Recuperación de URL Original**: Al recibir una URL corta, el servicio debe ser capaz de devolver la URL larga original.
-- **Estadísticas de Uso**: El servicio debe poder ofrecer estadísticas sobre las URLs que utilizan este servicio.
+- **Estadísticas de Uso**: El servicio **(solución?)** debe poder ofrecer estadísticas sobre las URLs que utilizan este servicio.
 - **Alta Escalabilidad**: Capacidad para manejar un gran volumen de solicitudes, con un objetivo de al menos 15.000 peticiones por segundo.
 - **Alto Rendimiento**: El 90% de todas las solicitudes deben ser respondidas en menos de 10 ms. La creación de una URL corta debe ser un proceso rápido, idealmente en el orden de 1 segundo.
 - **Gestión de URLs Cortas**: Posibilidad de eliminar URLs cortas que ya no son necesarias.
 - **Redirección Efectiva**: Asegurar que el usuario sea redirigido hacia la URL larga original al ingresar una URL corta válida en su navegador.
-- **Servicio**: Se debe construir un backend y fronend.
+- **Servicio**: Se debe construir un **(solo uno?)** backend y fronend.
 
 ### Opcional pero ideal
 
